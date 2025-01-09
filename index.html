@@ -91,19 +91,19 @@
                  h-16 rounded-[10px] hidden lg:flex lg:items-center lg:justify-between px-[50px]">
                     <ul class="flex  gap-x-4">
                         <li><a href="#"
-                                class="border-r pr-4 text-secondary hover:text-accent transition-all duration-300">Home</a>
+                                class="border-r pr-4 border-stone-300 text-secondary hover:text-accent transition-all duration-300">Home</a>
                         </li>
                         <li><a href="#"
-                                class="border-r pr-4 text-secondary hover:text-accent transition-all duration-300">About</a>
+                                class="border-r pr-4 border-stone-300 text-secondary hover:text-accent transition-all duration-300">About</a>
                         </li>
                         <li><a href="#"
-                                class="border-r pr-4 text-secondary hover:text-accent transition-all duration-300">Services</a>
+                                class="border-r pr-4 border-stone-300 text-secondary hover:text-accent transition-all duration-300">Services</a>
                         </li>
                         <li><a href="#"
-                                class="border-r pr-4 text-secondary hover:text-accent transition-all duration-300">Blog</a>
+                                class="border-r pr-4 border-stone-300 text-secondary hover:text-accent transition-all duration-300">Blog</a>
                         </li>
                         <li><a href="#"
-                                class="border-r pr-4 text-secondary hover:text-accent transition-all duration-300">Contact</a>
+                                class="border-r pr-4 border-stone-300 text-secondary hover:text-accent transition-all duration-300">Contact</a>
                         </li>
                     </ul>
 
@@ -122,26 +122,122 @@
 
     <!-- hero -->
     <section class="hero bg-gray py-12 xl:pt-12 xl:pb-0 overflow-hidden shadow-custom1 ">
-        <div class="container max-h-[70vh]">
-            <div class="flex flex-col xl:flex-row items-center justify-between h-full">
+        <div class="container min-h-[70vh]">
+            <div class="flex flex-col xl:flex-row items-center justify-between h-full space-y-5">
                 <div class=" hero__text xl:w-[60%] text-center xl:text-left">
                     <div class="bg-white  flex items-center gap-2 px-5 py-2 rounded-3xl w-[200px] mb-5 mx-auto xl:mx-0">
                         <i class="ri-heart-pulse-line text-2xl text-accent "></i>
                         <span class="text-stone-400">Live your life</span>
                     </div class="uppercase text-base font-medium ">
-                    <h1 class="h2 mb-6">We care about yor health</h1>
+                    <h1 class="h2 mb-6">We care about your health</h1>
                     <p class="mb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus unde itaque,
                         qui illo, error suscipit velit dolor eligendi voluptas quaerat, voluptatum dolores? Et esse
                         atque unde in, asperiores sed nostrum!</p>
                     <button class="btn btn-sm btn-accent mx-auto xl:mx-0">Contact us</button>
                 </div>
-                <div class=" hero__img hidden xl:flex max-w-[814px] self-end">
+                <div class=" hero__img xl:flex  self-end">
                     <img src="assets/img/hero/img.png" alt="hero">
                 </div>
             </div>
         </div>
-
     </section>
+
+    <!-- stats -->
+    <section class="stats section">
+        <div class="container">
+            <div class="flex flex-col xl:flex-row gap-y-6 justify-between">
+                <div class="stats__item flex-1 xl:border-r flex flex-col items-center">
+                    <div class="text-4xl xl:text-[64px] font-semibold
+                    text-accent-tertiary xl:mb-2">+6342</div>
+                    <div>Happy Patient</div>
+                </div>
+
+                <div class="stats__item flex-1 xl:border-r flex flex-col items-center">
+                    <div class="text-4xl xl:text-[64px] font-semibold
+                    text-accent-tertiary xl:mb-2">26</div>
+                    <div>Total Branches</div>
+                </div>
+
+                <div class="stats__item flex-1 xl:border-r flex flex-col items-center">
+                    <div class="text-4xl xl:text-[64px] font-semibold
+                    text-accent-tertiary xl:mb-2">+75</div>
+                    <div>Senior Doctors</div>
+                </div>
+
+                <div class="stats__item flex-1  flex flex-col items-center">
+                    <div class="text-4xl xl:text-[64px] font-semibold
+                    text-accent-tertiary xl:mb-2">+15</div>
+                    <div>Years Experiences</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services  -->
+    <section class="services relative container">
+        <div
+            class=" bg-service bg-cover bg-no-repeat max-w-[1466px] mx-4 xl:mx-auto
+        rounded-[20px] xl:pt[70px] px-6 xl:px-0 relative h-[368px] flex justify-start items-center xl:items-start -z-10">
+            <div class="container lg:h-full py-20">
+                <div class=" my-auto serives__top flex flex-col items-center  xl:flex-row xl:mb-[60px] px-10">
+                    <h2 class="h2 text-white flex-1 mb-4 xl:mb-0 text-center xl:text-left">Our best services solutions
+                    </h2>
+                    <p class="text-white flex-1 text-center xl:text-left max-w-2xl
+                    xl:max-w-none">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum expedita est,
+                        sapiente
+                        eum voluptatem sequi blanditiis dolore quaerat corrupti, praesentium officiis ducimus alias quam
+                        cupiditate ad rem quis numquam animi?
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-8 xl:mt-[144px] absolute xl:top-20 xl:right-1 xl:px-20">
+
+            <div class=" flex flex-col xl:flex-row gap-3 py-10">
+                <div class=" services__items bg-white px-[30px] py-[15px] rounded-[10px] shadow-custom2 
+                min-h-[288px] flex flex-col items-center text-center
+                    mb-[15px]">
+                    <img src="assets/icons/services/icon-1.svg" alt="icon-1">
+                    <h3 class="h3 mb-[15px]">General Practitioners</h3>
+                    <p class=" leading-normal max-w-[300px]">Lorem ipsum dolor sit amet consectetur,
+                        adipisicing elit.</p>
+
+                </div>
+
+                <div class="services__items bg-white px-[30px] py-[15px] rounded-[10px] shadow-custom2 
+                min-h-[288px] flex flex-col items-center text-center
+                    mb-[15px]">
+                    <img src="assets/icons/services/icon-3.svg" alt="icon-1">
+                    <h3 class="h3 mb-[15px]">Nutritional Support</h3>
+                    <p class=" leading-normal max-w-[300px]">Lorem ipsum dolor sit amet consectetur,
+                        adipisicing elit.</p>
+
+                </div>
+
+                <div class="services__items bg-white px-[30px] py-[15px] rounded-[10px] shadow-custom2 
+                min-h-[288px] flex flex-col items-center text-center
+                    mb-[15px]">
+                    <img src="assets/icons/services/icon-2.svg" alt="icon-1">
+                    <h3 class="h3 mb-[15px]">Pregnancy Support</h3>
+                    <p class=" leading-normal max-w-[300px]">Lorem ipsum dolor sit amet consectetur,
+                        adipisicing elit.</p>
+
+                </div>
+
+                <div class="services__items bg-white px-[30px] py-[15px] rounded-[10px] shadow-custom2 
+                min-h-[288px] flex flex-col items-center text-center
+                    mb-[15px]">
+                    <img src="assets/icons/services/icon-4.svg" alt="icon-1">
+                    <h3 class="h3 mb-[15px]">Pharmaceceutial Care</h3>
+                    <p class=" leading-normal max-w-[300px]">Lorem ipsum dolor sit amet consectetur,
+                        adipisicing elit.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <!-- script  -->
     <script src="js/swiper-bundle.min.js"></script>

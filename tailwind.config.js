@@ -24,6 +24,10 @@ module.exports = {
           tertiary: '#90c6cd',
         },
         gray:'#e8f0f1',
+      
+      },
+      borderColor: {
+        DEFAULT: 'rgb(128 ,128 ,128 , 66%)', // Set your default border color here (gray in this case)
       },
       fontFamily:{
         primary:'Poppins',
@@ -33,7 +37,7 @@ module.exports = {
         custom2:'0px 0px 30px 0px rgba(8,73,78,0.06)',
       },
       backgroundImage:{
-        service:'url(../../assets/img/services.svg)',
+        service:'url(../../assets/img/services/bg.svg)',
         testimonials:'url(../../assets/img/testimonials.svg)',
         departments:'url(../../assets/img/departments.svg)',
         qouteLeft:'url(../../assets/img/testimonials/qoute-left.svg)',
