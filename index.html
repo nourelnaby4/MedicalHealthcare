@@ -17,7 +17,7 @@
     <title>health care</title>
 </head>
 
-<body>
+<body class="overflow-x-hidden">
     <header class="py-8 lg:pt-6">
         <div class="container lg:relative flex flex-col lg:flex-row lg:justify-between gap-y-4 lg:gap-y-5">
             <!-- logo  -->
@@ -121,11 +121,12 @@
     </header>
 
     <!-- hero -->
-    <section class="hero bg-gray py-12 xl:pt-12 xl:pb-0 overflow-hidden shadow-custom1 ">
+    <section class="hero section bg-gray py-12 pt-12 lg:pb-0 overflow-hidden shadow-custom1 ">
         <div class="container min-h-[70vh]">
-            <div class="flex flex-col xl:flex-row items-center justify-between h-full space-y-5">
-                <div class=" hero__text xl:w-[60%] text-center xl:text-left">
-                    <div class="bg-white  flex items-center gap-2 px-5 py-2 rounded-3xl w-[200px] mb-5 mx-auto xl:mx-0">
+            <div class="flex flex-col lg:flex-row items-center justify-between h-full space-y-5">
+                <div class=" hero__text lg:w-[60%] text-center lg:text-left mb-10 lg:mb-0">
+                    <div
+                        class="bg-white  flex items-center gap-2 px-5 py-2 rounded-3xl w-[200px] mb-5 mx-auto lg:mx-0 ">
                         <i class="ri-heart-pulse-line text-2xl text-accent "></i>
                         <span class="text-stone-400">Live your life</span>
                     </div class="uppercase text-base font-medium ">
@@ -133,108 +134,162 @@
                     <p class="mb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus unde itaque,
                         qui illo, error suscipit velit dolor eligendi voluptas quaerat, voluptatum dolores? Et esse
                         atque unde in, asperiores sed nostrum!</p>
-                    <button class="btn btn-sm btn-accent mx-auto xl:mx-0">Contact us</button>
+                    <button class="btn btn-sm btn-accent mx-auto lg:mx-0">Contact us</button>
                 </div>
-                <div class=" hero__img xl:flex  self-end">
-                    <img src="assets/img/hero/img.png" alt="hero">
+                <div class=" hero__img lg:flex  mx-auto w-[50%]">
+                    <img src="assets/img/hero/image-from-rawpixel-id-15457894-png.png" alt="hero">
                 </div>
             </div>
         </div>
     </section>
 
     <!-- stats -->
-    <section class="stats section">
+    <section class="stats section ">
         <div class="container">
-            <div class="flex flex-col xl:flex-row gap-y-6 justify-between">
-                <div class="stats__item flex-1 xl:border-r flex flex-col items-center">
-                    <div class="text-4xl xl:text-[64px] font-semibold
-                    text-accent-tertiary xl:mb-2">+6342</div>
+            <div class="flex flex-col lg:flex-row gap-y-6 justify-between">
+                <div class="stats__item flex-1 lg:border-r flex flex-col items-center">
+                    <div class="text-4xl lg:text-[64px] font-semibold
+                    text-accent-tertiary lg:mb-2">+6342</div>
                     <div>Happy Patient</div>
                 </div>
 
-                <div class="stats__item flex-1 xl:border-r flex flex-col items-center">
-                    <div class="text-4xl xl:text-[64px] font-semibold
-                    text-accent-tertiary xl:mb-2">26</div>
+                <div class="stats__item flex-1 lg:border-r flex flex-col items-center">
+                    <div class="text-4xl lg:text-[64px] font-semibold
+                    text-accent-tertiary lg:mb-2">26</div>
                     <div>Total Branches</div>
                 </div>
 
-                <div class="stats__item flex-1 xl:border-r flex flex-col items-center">
-                    <div class="text-4xl xl:text-[64px] font-semibold
-                    text-accent-tertiary xl:mb-2">+75</div>
+                <div class="stats__item flex-1 lg:border-r flex flex-col items-center">
+                    <div class="text-4xl lg:text-[64px] font-semibold
+                    text-accent-tertiary lg:mb-2">+75</div>
                     <div>Senior Doctors</div>
                 </div>
 
                 <div class="stats__item flex-1  flex flex-col items-center">
-                    <div class="text-4xl xl:text-[64px] font-semibold
-                    text-accent-tertiary xl:mb-2">+15</div>
+                    <div class="text-4xl lg:text-[64px] font-semibold
+                    text-accent-tertiary lg:mb-2">+15</div>
                     <div>Years Experiences</div>
+                </div>
+            </div>
+
+    </section>
+
+    <!-- services  -->
+    <section class="services section ">
+        <div class="container relative min-h-[1650px] md:min-h-[1750px] lg:min-h-[70vh]">
+            <div class=" bg-service bg-cover bg-no-repeat max-w-[1466px] mx-4 lg:mx-auto
+    rounded-[20px] lg:pt[70px] px-6 lg:px-0 relative h-[368px] flex justify-start items-center lg:items-start -z-10">
+                <div class="container lg:h-full py-20">
+                    <div class=" serives__top flex flex-col items-center  lg:flex-row lg:mb-[60px] py-5">
+                        <h2 class="h2 text-white flex-1 mb-4 lg:mb-0 text-center lg:text-left lg:px-8">Our best services
+                            solutions
+                        </h2>
+                        <p class="text-white flex-1 text-center lg:text-left max-w-2xl
+                lg:max-w-none">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum expedita est,
+                            sapiente
+                            eum voluptatem sequi blanditiis dolore quaerat corrupti, praesentium officiis ducimus alias
+                            quam
+                            cupiditate ad rem quis numquam animi?
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-8 lg:mt-[144px] absolute lg:top-20 lg:right-1 lg:px-20">
+                <div class="container flex flex-col lg:flex-row gap-3 py-10">
+                    <div class="container services__items bg-white px-[30px] py-[15px] rounded-[10px] shadow-custom2 
+            min-h-[288px] flex flex-col items-center text-center
+                mb-[15px]">
+                        <img src="assets/icons/services/icon-1.svg" alt="icon-1">
+                        <h3 class="h3 mb-[15px]">General Practitioners</h3>
+                        <p class=" leading-normal ">Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit.
+                        </p>
+                    </div>
+
+                    <div class="services__items bg-white px-[30px] py-[15px] rounded-[10px] shadow-custom2 
+            min-h-[288px] flex flex-col items-center text-center
+                mb-[15px]">
+                        <img src="assets/icons/services/icon-3.svg" alt="icon-1">
+                        <h3 class="h3 mb-[15px]">Nutritional Support</h3>
+                        <p class=" leading-normal ">Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit.</p>
+
+                    </div>
+
+                    <div class="services__items bg-white px-[30px] py-[15px] rounded-[10px] shadow-custom2 
+            min-h-[288px] flex flex-col items-center text-center
+                mb-[15px]">
+                        <img src="assets/icons/services/icon-2.svg" alt="icon-1">
+                        <h3 class="h3 mb-[15px]">Pregnancy Support</h3>
+                        <p class=" leading-normal ">Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit.</p>
+
+                    </div>
+
+                    <div class="services__items bg-white px-[30px] py-[15px] rounded-[10px] shadow-custom2 
+            min-h-[288px] flex flex-col items-center text-center
+                mb-[15px]">
+                        <img src="assets/icons/services/icon-4.svg" alt="icon-1">
+                        <h3 class="h3 mb-[15px]">Pharmaceceutial Care</h3>
+                        <p class=" leading-normal ">Lorem ipsum dolor sit amet consectetur,
+                            adipisicing elit.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- services  -->
-    <section class="services relative container">
-        <div
-            class=" bg-service bg-cover bg-no-repeat max-w-[1466px] mx-4 xl:mx-auto
-        rounded-[20px] xl:pt[70px] px-6 xl:px-0 relative h-[368px] flex justify-start items-center xl:items-start -z-10">
-            <div class="container lg:h-full py-20">
-                <div class=" my-auto serives__top flex flex-col items-center  xl:flex-row xl:mb-[60px] px-10">
-                    <h2 class="h2 text-white flex-1 mb-4 xl:mb-0 text-center xl:text-left">Our best services solutions
-                    </h2>
-                    <p class="text-white flex-1 text-center xl:text-left max-w-2xl
-                    xl:max-w-none">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum expedita est,
-                        sapiente
-                        eum voluptatem sequi blanditiis dolore quaerat corrupti, praesentium officiis ducimus alias quam
-                        cupiditate ad rem quis numquam animi?
-                    </p>
-                </div>
-            </div>
-        </div>
+    <!-- appointment -->
+    <section class="appointment section">
+        <div class="container ">
+            <h2 class="appointmment__title h2 mb-5 xl:mb-[50px] text-center xl:text-left">Book Appointment or call:
+                <span class="text-accent-tertiary">(+20) 115 354 1474</span>
+            </h2>
 
-        <div class="container mt-8 xl:mt-[144px] absolute xl:top-20 xl:right-1 xl:px-20">
+            <form class=" appointment__form  flex  flex-col gap-y-5">
+                <div class="flex flex-col lg:flex-row gap-5">
+                    <div class="select relative flex text-center">
+                        <div class="absolute right-4">
+                            <i class="ri-arrow-down-s-line text-[26px] text-primary"></i>
+                        </div>
+                        <select class="appearance-none outline-none h-full w-full bg-transparent px-4 ">
+                            <option value="1">select department</option>
+                            <option value="2">Department 1</option>
+                            <option value="2">Department 2</option>
+                            <option value="3">Department 3</option>
+                            <option value="4">Department 4</option>
+                        </select>
+                    </div>
 
-            <div class=" flex flex-col xl:flex-row gap-3 py-10">
-                <div class=" services__items bg-white px-[30px] py-[15px] rounded-[10px] shadow-custom2 
-                min-h-[288px] flex flex-col items-center text-center
-                    mb-[15px]">
-                    <img src="assets/icons/services/icon-1.svg" alt="icon-1">
-                    <h3 class="h3 mb-[15px]">General Practitioners</h3>
-                    <p class=" leading-normal max-w-[300px]">Lorem ipsum dolor sit amet consectetur,
-                        adipisicing elit.</p>
-
-                </div>
-
-                <div class="services__items bg-white px-[30px] py-[15px] rounded-[10px] shadow-custom2 
-                min-h-[288px] flex flex-col items-center text-center
-                    mb-[15px]">
-                    <img src="assets/icons/services/icon-3.svg" alt="icon-1">
-                    <h3 class="h3 mb-[15px]">Nutritional Support</h3>
-                    <p class=" leading-normal max-w-[300px]">Lorem ipsum dolor sit amet consectetur,
-                        adipisicing elit.</p>
-
+                    <div class="select relative flex text-center">
+                        <div class="absolute right-4">
+                            <i class="ri-arrow-down-s-line text-[26px] text-primary"></i>
+                        </div>
+                        <select class="appearance-none outline-none h-full w-full bg-transparent px-4 ">
+                            <option value="1">select doctor</option>
+                            <option value="2">Dr. Ahmed Nour</option>
+                            <option value="2">Dr. Saed Tamer</option>
+                            <option value="2">Dr. Mohamed Hazem</option>
+                        </select>
+                    </div>
                 </div>
 
-                <div class="services__items bg-white px-[30px] py-[15px] rounded-[10px] shadow-custom2 
-                min-h-[288px] flex flex-col items-center text-center
-                    mb-[15px]">
-                    <img src="assets/icons/services/icon-2.svg" alt="icon-1">
-                    <h3 class="h3 mb-[15px]">Pregnancy Support</h3>
-                    <p class=" leading-normal max-w-[300px]">Lorem ipsum dolor sit amet consectetur,
-                        adipisicing elit.</p>
-
+                <div class="flex flex-col lg:flex-row gap-5">
+                    <input type="text" class="input text-primary  placeholder:font-normal"
+                        placeholder="Full Name">
+                        <input type="text" class="input text-primary font-medium placeholder:font-normal"
+                        placeholder="Phone Nmber">
                 </div>
 
-                <div class="services__items bg-white px-[30px] py-[15px] rounded-[10px] shadow-custom2 
-                min-h-[288px] flex flex-col items-center text-center
-                    mb-[15px]">
-                    <img src="assets/icons/services/icon-4.svg" alt="icon-1">
-                    <h3 class="h3 mb-[15px]">Pharmaceceutial Care</h3>
-                    <p class=" leading-normal max-w-[300px]">Lorem ipsum dolor sit amet consectetur,
-                        adipisicing elit.</p>
-
+                <div class="flex flex-col lg:flex-row gap-5">
+                    <input class="input" type="date">
+                    <input class="input" type="time">
                 </div>
-            </div>
+
+                <button class="btn btn-lg btn-accent self-start" type="submit">Book an appointment</button>
+            </form>
         </div>
     </section>
 

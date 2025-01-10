@@ -57,8 +57,12 @@ h6{
 }
 
 .input, .select{
-    @apply w-full rounded-[10px] h-[66px] outline-none border border-[#dbdfdf] 
-    text-secondary font-light placeholder:font-light placeholder:text-secondary;
+    @apply w-full rounded-[10px] h-[66px] outline-none border 
+    text-secondary  placeholder:font-light placeholder:text-secondary;
+}
+
+.select{
+    @apply py-4
 }
 
 .input{
@@ -66,7 +70,7 @@ h6{
 }
 
 .section{
-    @apply py-12 xl:py-[150px];
+    @apply py-12 xl:py-[110px];
 }
 
 /* swiper bullets */
