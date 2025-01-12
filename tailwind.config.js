@@ -38,10 +38,9 @@ module.exports = {
       },
       backgroundImage:{
         service:'url(../../assets/img/newsletter/bgNewsletter.svg)',
-        testimonials:'url(../../assets/img/testimonials/bg.svg)',
-        departments:'url(../../assets/img/departments.svg)',
-        qouteLeft:'url(../../assets/img/testimonials/qoute-left.svg)',
-        qouteRight:'url(../../assets/img/testimonials/qoute-right.svg)',
+        testimonials:'url(../../assets/img/testimonials/bgTest.svg)',
+        qouteLeft:'url(../../assets/icons/testimonials/qoute-left.svg)',
+        qouteRight:'url(../../assets/icons/testimonials/qoute-right.svg)',
       }
     },
   },
