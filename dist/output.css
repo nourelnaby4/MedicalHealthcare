@@ -1114,14 +1114,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
-.bg-service{
-  background-image: url(../../assets/img/newsletter/bgNewsletter.svg);
-}
-
-.bg-testimonials{
-  background-image: url(../../assets/img/testimonials/bgTest.svg);
-}
-
 .bg-cover{
   background-size: cover;
 }
@@ -1594,6 +1586,33 @@ h6{
   height: 100%;
 }
 
+.bg-service {
+  background-image: url('../assets/img/newsletter/bgNewsletter.svg');
+  background-size: cover;
+  /* Adjust as needed */
+  background-position: center;
+}
+
+.bg-testimonials {
+  background-image: url('../assets/img/testimonials/bgTest.svg');
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-qoute-left {
+  background-image: url('../assets/icons/testimonials/qoute-left.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+}
+
+.bg-qoute-right {
+  background-image: url('../assets/icons/testimonials/quote-right.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
 .placeholder\:text-base::-moz-placeholder{
   font-size: 1rem;
   line-height: 1.5rem;
@@ -1864,3 +1883,4 @@ h6{
     text-align: left;
   }
 }
+  

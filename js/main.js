@@ -55,35 +55,35 @@ faqItems.forEach((item) => {
     });
 });
 
-// const sr = ScrollReveal({
-//     origin: 'bottom',
-//     distance: '60px',
-//     duration: 2500,
-//     delay: 500,
-//     reset: true
-// });
+const sr = ScrollReveal({
+    origin: 'bottom',
+    distance: '60px',
+    duration: 2500,
+    delay: 500,
+    reset: true
+});
 
-// sr.reveal('.stats__item',{
-//     origin: 'top',
-//     distance: '100px',
-//     delay: 100,
-//     interval: 100
-// });
-// sr.reveal('.services_item',{
-//     origin: 'bottom',
-//     distance: '100px',
-//     delay: 100,
-//     interval: 100
-// });
+sr.reveal('.stats__item',{
+    origin: 'top',
+    distance: '100px',
+    delay: 100,
+    interval: 100
+});
+sr.reveal('.services_item',{
+    origin: 'bottom',
+    distance: '100px',
+    delay: 100,
+    interval: 100
+});
 
 
-// sr.reveal('.blog__title',{
-//     origin: 'bottom',
-//     distance: '100px',
-//     delay: 100,
-//     interval: 100
-// });
-// sr.reveal('.blog__post');
+sr.reveal('.blog__title',{
+    origin: 'bottom',
+    distance: '100px',
+    delay: 100,
+    interval: 100
+});
+sr.reveal('.blog__post');
 
-// sr.reveal('brands');
-// sr.reveal('footer__logo')
+sr.reveal('brands');
+sr.reveal('footer__logo')

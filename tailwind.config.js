@@ -36,12 +36,6 @@ module.exports = {
         custom1:'0px 2px 40px 0px rgba(8,70,78,0.08)',
         custom2:'0px 0px 30px 0px rgba(8,73,78,0.06)',
       },
-      backgroundImage:{
-        service:'url(../../assets/img/newsletter/bgNewsletter.svg)',
-        testimonials:'url(../../assets/img/testimonials/bgTest.svg)',
-        qouteLeft:'url(../../assets/icons/testimonials/qoute-left.svg)',
-        qouteRight:'url(../../assets/icons/testimonials/qoute-right.svg)',
-      }
     },
   },
   plugins: [],

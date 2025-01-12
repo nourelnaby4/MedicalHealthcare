@@ -83,3 +83,31 @@ h6{
 .faq__item.open .faq__answer{
     @apply h-full;
 }
+
+
+.bg-service {
+    background-image: url('../assets/img/newsletter/bgNewsletter.svg');
+    background-size: cover; /* Adjust as needed */
+    background-position: center;
+  }
+  
+  .bg-testimonials {
+    background-image: url('../assets/img/testimonials/bgTest.svg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .bg-qoute-left {
+    background-image: url('../assets/icons/testimonials/qoute-left.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+  }
+  
+  .bg-qoute-right {
+    background-image: url('../assets/icons/testimonials/quote-right.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+  }
+  
