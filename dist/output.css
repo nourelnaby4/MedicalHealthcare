@@ -660,6 +660,11 @@ video {
   z-index: 20;
 }
 
+.mx-10{
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
 .mx-20{
   margin-left: 5rem;
   margin-right: 5rem;
@@ -683,11 +688,6 @@ video {
 .my-5{
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
-}
-
-.mx-10{
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
 }
 
 .mb-10{
