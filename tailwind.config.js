@@ -37,7 +37,7 @@ module.exports = {
         custom2:'0px 0px 30px 0px rgba(8,73,78,0.06)',
       },
       backgroundImage:{
-        service:'url(../../assets/img/services/bg.svg)',
+        service:'url(../../assets/img/services/img/bgService.svg)',
         testimonials:'url(../../assets/img/testimonials/bg.svg)',
         departments:'url(../../assets/img/departments.svg)',
         qouteLeft:'url(../../assets/img/testimonials/qoute-left.svg)',
