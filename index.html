@@ -43,7 +43,7 @@
                 <button class="btn btn-sm btn-outline w-[240px] mx-auto lg:mx-0 lg:w-auto">Book now</button>
 
                 <!-- mobile nav  -->
-                <nav class="mnav bg-white fixed w-[300px] top-0 h-screen -left-[290px] shadow-2xl
+                <nav class="mnav bg-white fixed w-[310px] top-0 h-screen -left-[300px] shadow-2xl
                   lg:hidden transition-all duration-300 z-20">
 
                     <div class="mnav__close-btn bg-primary w-8 h-8 relative -right-full 
@@ -195,7 +195,7 @@
                 </div>
             </div>
 
-            <div class="container mt-8 lg:mt-[144px] absolute lg:top-20 lg:right-1 lg:px-20">
+            <div class="services_item container mt-8 lg:mt-[144px] absolute lg:top-20 lg:right-1 lg:px-20">
                 <div class="container flex flex-col lg:flex-row gap-3 py-10">
                     <div class="container services__items bg-white px-[30px] py-[15px] rounded-[10px] shadow-custom2 
             min-h-[288px] flex flex-col items-center text-center
@@ -244,7 +244,7 @@
     <!-- appointment -->
     <section class="appointment section">
         <div class="container ">
-            <h2 class="appointmment__title h2 mb-5 xl:mb-[50px] text-center xl:text-left">Book Appointment or call:
+            <h2 class="appointment__title h2 mb-5 xl:mb-[50px] text-center xl:text-left">Book Appointment or call:
                 <span class="text-accent-tertiary">(+20) 115 354 1474</span>
             </h2>
 
@@ -517,7 +517,7 @@
     <section class="faq section">
         <div class="container">
             <h2 class="faq__title h2  mb-[50px] px-3">We've got answers</h2>
-            <div class="max-w-5xl mx-auto flex flex-col gap-4">
+            <div class="faq__item max-w-5xl mx-auto flex flex-col gap-4">
                 <div class="faq__item px-[30px] border-b cursor-pointer select-none ">
                     <div class="flex items-center justify-between mb-[10px]">
                         <h4 class="h4 font-semibold">Why to belive in Insove medical healthcare ?</h4>
@@ -656,17 +656,130 @@
                     <h1 class="h1 mb-4 text-white">Subscribe to get more updates</h1>
                 </div>
                 <form class="flex-1">
-                    <div class="px-5 flex flex-col md:flex-row w-3/4 mx-auto md:w-full gap-y-4 gap-x-4 md:gap-x-0 relative">
-                        <input type="text" 
-                        placeholder="your email address"
-                         class="rounded-full  md:w-[500px]  h-[66px]  bg-transparent border-2
+                    <div
+                        class="px-5 flex flex-col md:flex-row w-3/4 mx-auto md:w-full gap-y-4 gap-x-4 md:gap-x-0 relative">
+                        <input type="text" placeholder="your email address" class="rounded-full  md:w-[500px]  h-[66px]  bg-transparent border-2
                       border-white outline-none pl-[30px] placeholder:text-white focus:text-white">
-                        <button  class="md:absolute right-0 btn btn-lg bg-white ">Subscribe</button>
+                        <button class="md:absolute right-0 btn btn-lg bg-white ">Subscribe</button>
                     </div>
                 </form>
             </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer  mx-10 pt-12 xl:pt-[150px]">
+        <div class="container  pb-12 xl:pb-[100px]">
+            <div class="flex flex-col xl:flex-row gap-x-5 gap-y-10 ">
+                <div class="footer_item flex-1">
+                    <div class="footer__logo">
+                        <a href="">
+                            <img src="assets/img/header/logo.svg" class=" mb-[30px]" alt="">
+                            <p class="mb-[20px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,
+                                iure.
+                            </p>
+                        </a>
+                    </div>
+                    <div class="flex flex-col gap-y-3 mb-10">
+                        <div class="flex items-center gap-x-2 ">
+                            <i class="ri-map-pin-fill text-2xl text-accent"></i>
+                            alf-maskan, cairo, Egy
+                        </div>
+
+                        <div class="flex items-center gap-x-2 ">
+                            <i class="ri-mail-fill  text-2xl text-accent"></i>
+                            nourelnaby4@gmail.com
+                        </div>
+
+                        <div class="flex items-center gap-x-2 ">
+                            <i class="ri-phone-fill text-2xl text-accent "></i>
+                            (+20) 115 354 1474
+                        </div>
+                    </div>
+                    <div class="flex gap-[14px] text-[30px]">
+                        <div
+                            class="p-[10px] rounded-[10px] shadow-custom2 text-accent-tertiary hover:text-accent cursor-pointer transition-all">
+                            <i class="ri-facebook-circle-fill"></i>
+                        </div>
+                        <div
+                            class="p-[10px] rounded-[10px] shadow-custom2 text-accent-tertiary hover:text-accent cursor-pointer transition-all">
+                            <i class="ri-twitter-fill"></i>
+                        </div>
+                        <div
+                            class="p-[10px] rounded-[10px] shadow-custom2 text-accent-tertiary hover:text-accent cursor-pointer transition-all">
+                            <i class="ri-instagram-fill"></i>
+                        </div>
+                        <div
+                            class="p-[10px] rounded-[10px] shadow-custom2 text-accent-tertiary hover:text-accent cursor-pointer transition-all">
+                            <i class="ri-pinterest-fill"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_item flex-1">
+                    <h2 class="h4 text-2xl mb-14 font-semibold">Quick Links</h2>
+                    <div class="flex flex-row gap-x-5">
+                        <ul class="flex-1 flex flex-col gap-y-5">
+                            <li><a href="#" class="hover:text-accent transition-all ">Home</a></li>
+                            <li><a href="#" class="hover:text-accent transition-all ">Doctors</a></li>
+                            <li><a href="#" class="hover:text-accent transition-all ">Department</a></li>
+                            <li><a href="#" class="hover:text-accent transition-all ">Services</a></li>
+                            <li><a href="#" class="hover:text-accent transition-all ">Blog</a></li>
+                            <li><a href="#" class="hover:text-accent transition-all ">Newsletter</a></li>
+                        </ul>
+
+                        <ul class="flex-1 flex flex-col gap-y-5">
+                            <li><a href="#" class="hover:text-accent transition-all ">Our Prices</a></li>
+                            <li><a href="#" class="hover:text-accent transition-all ">Contact</a></li>
+                            <li><a href="#" class="hover:text-accent transition-all ">Faqs</a></li>
+                            <li><a href="#" class="hover:text-accent transition-all ">Blog</a></li>
+                            <li><a href="#" class="hover:text-accent transition-all ">Newsletter</a></li>
+                            <li><a href="#" class="hover:text-accent transition-all ">Previce Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer_item flex-1">
+                    <h2 class="h4 text-2xl mb-14 font-semibold">Opening Hours</h2>
+                    <div>
+                        <div class="flex-1">
+                            <div class="flex justify-between items-center border-b pb-[10px]">
+                                <div>Saturday</div>
+                                <div class="text-accent font-medium">8:00 AM - 12:00 PM</div>
+
+                            </div>
+                        </div>
+                        <div class="flex-1">
+                            <div class="flex justify-between items-center border-b pb-[10px]">
+                                <div>Sunday - Wednesday</div>
+                                <div class="text-accent font-medium">8:00 AM - 5:00 PM</div>
+                            </div>
+                        </div>
+                        <div class="flex-1">
+                            <div class="flex justify-between items-center border-b pb-[10px]">
+                                <div>Thursday</div>
+                                <div class="text-accent font-medium">Emergency Only</div>
+                            </div>
+                        </div>
+                        <div class="flex-1">
+                            <div class="flex justify-between items-center border-b pb-[10px]">
+                                <div>Friday</div>
+                                <div class="text-accent font-medium">Closed</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="py-[30px] border-t">
+            <div class="container text-center">
+                <div class="text-base">
+                    &copy; 2025 Insove - All reights reserved.
+                </div>
+            </div>
 
         </div>
+
     </section>
 
     <!-- script  -->
