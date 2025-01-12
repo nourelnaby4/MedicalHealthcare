@@ -43,7 +43,7 @@
                 <button class="btn btn-sm btn-outline w-[240px] mx-auto lg:mx-0 lg:w-auto">Book now</button>
 
                 <!-- mobile nav  -->
-                <nav class="mnav bg-white fixed w-[300px] top-0 h-screen -left-[300px] shadow-2xl
+                <nav class="mnav bg-white fixed w-[300px] top-0 h-screen -left-[290px] shadow-2xl
                   lg:hidden transition-all duration-300 z-20">
 
                     <div class="mnav__close-btn bg-primary w-8 h-8 relative -right-full 
@@ -516,7 +516,7 @@
     <!-- FAQ -->
     <section class="faq section">
         <div class="container">
-            <h2 class="faq__title h2  mb-[50px]">We've got answers</h2>
+            <h2 class="faq__title h2  mb-[50px] px-3">We've got answers</h2>
             <div class="max-w-5xl mx-auto flex flex-col gap-4">
                 <div class="faq__item px-[30px] border-b cursor-pointer select-none ">
                     <div class="flex items-center justify-between mb-[10px]">
@@ -572,14 +572,14 @@
     <!-- blog  -->
     <section class="blog">
         <div class="container">
-            <h2 class="blog__title h2 mb-[50px] text-center xl:text-left">
+            <h2 class="blog__title h2 mb-[50px] text-center lg:text-left">
                 Our Recents Posts
             </h2>
-            <div class="flex flex-col xl:flex-row gap-y-6 gap-x-4 xl:gap-y-0 items-center xl:justify-between mb-[50px]">
+            <div class="flex flex-col lg:flex-row gap-y-6 gap-x-4 lg:gap-y-0 items-center lg:justify-between mb-[50px]">
                 <div class="blog__post maz-w-[420px] shadow-custom2 rounded-md overflow-hidden cursor-pointer group">
                     <div class="relative overflow-hidden">
-                        <img width="100%"  style="height:285px"  class="group-hover:scale-110 transition-all duration-500" src="assets/img/blog/img-1.png"
-                            alt="">
+                        <img width="100%" style="height:285px" class="group-hover:scale-110 transition-all duration-500"
+                            src="assets/img/blog/img-1.png" alt="">
                         <div class="bg-accent-tertiary absolute bottom-0 left-0 text-white
                             tracking-[2.24px] text-base font-medium uppercase py-1 px-2">Medical</div>
                     </div>
@@ -594,8 +594,8 @@
                 </div>
                 <div class="blog__post maz-w-[420px] shadow-custom2 rounded-md overflow-hidden cursor-pointer group">
                     <div class="relative overflow-hidden">
-                        <img width="100%"  style="height:285px"  class="group-hover:scale-110 transition-all duration-500" src="assets/img/blog/vacation.png"
-                            alt="">
+                        <img width="100%" style="height:285px" class="group-hover:scale-110 transition-all duration-500"
+                            src="assets/img/blog/vacation.png" alt="">
                         <div class="bg-accent-tertiary absolute bottom-0 left-0 text-white
                             tracking-[2.24px] text-base font-medium uppercase py-1 px-2">Psychiatric</div>
                     </div>
@@ -611,8 +611,8 @@
 
                 <div class="blog__post maz-w-[420px] shadow-custom2 rounded-md overflow-hidden cursor-pointer group">
                     <div class="relative overflow-hidden">
-                        <img width="100%" style="height:285px"   class="group-hover:scale-110 transition-all duration-500" src="assets/img/blog/img-3.png"
-                            alt="">
+                        <img width="100%" style="height:285px" class="group-hover:scale-110 transition-all duration-500"
+                            src="assets/img/blog/img-3.png" alt="">
                         <div class="bg-accent-tertiary absolute bottom-0 left-0 text-white
                             tracking-[2.24px] text-base font-medium uppercase py-1 px-2">biological</div>
                     </div>
@@ -630,7 +630,7 @@
     </section>
 
     <!-- brands  -->
-     <section class="brands section">
+    <section class="brands section">
         <div class="container">
             <div class="flex flex-col xl:flex-row items-center justify-between gap-y-12 xl:gap-y-0 xl:gap-y-0">
                 <img class="brands__logo" src="assets/img/brands/brand-1.svg" alt="">
@@ -640,7 +640,35 @@
                 <img class="brands__logo" src="assets/img/brands/brand-5.svg" alt="">
             </div>
         </div>
-     </section>
+    </section>
+
+    <!-- newsletter -->
+    <section class="newsletter bg-accent md:h-[444px] py-12 flex items-center relative overflow-hidden">
+        <div class="absolute top-0 left-0">
+            <img src="assets/img/newsletter/pattern.svg" alt="">
+        </div>
+        <div class="newsletter__container container">
+            <div class="flex flex-col lg:flex-row lg:items-center lg:gap-x-[58px]">
+                <div class="flex-1 z-10 text-center">
+                    <div class="text-base uppercase text-white tracking-[2.24px] font-medium">
+                        Our Newsletter
+                    </div>
+                    <h1 class="h1 mb-4 text-white">Subscribe to get more updates</h1>
+                </div>
+                <form class="flex-1">
+                    <div class="px-5 flex flex-col md:flex-row w-3/4 mx-auto md:w-full gap-y-4 gap-x-4 md:gap-x-0 relative">
+                        <input type="text" 
+                        placeholder="your email address"
+                         class="rounded-full  md:w-[500px]  h-[66px]  bg-transparent border-2
+                      border-white outline-none pl-[30px] placeholder:text-white focus:text-white">
+                        <button  class="md:absolute right-0 btn btn-lg bg-white ">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
     <!-- script  -->
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/scrollreveal.min.js"></script>
