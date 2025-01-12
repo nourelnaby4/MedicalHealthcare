@@ -85,5 +85,6 @@ sr.reveal('.blog__title',{
 });
 sr.reveal('.blog__post');
 
-sr.reveal('brands');
-sr.reveal('footer__logo')
+sr.reveal('.brands');
+sr.reveal('.footer__logo');
+sr.reveal('.testimonial__text');
